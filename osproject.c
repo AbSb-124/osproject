@@ -17,16 +17,5 @@ void main()
 	printf("enter number of gifts of each student:");
 	scanf("%d",&g[i]);
 	}
-	for(i=0;i<n-1;i++)
-	{
-          for(j=i+1;j<n;j++)
-	  { 
-		  if(g[i]<g[j])
-			  
-		  {
-	           temp1=g[i];
-		    g[i]=g[j];
-	            
-		  }
-
+	
 	
