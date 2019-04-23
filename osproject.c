@@ -14,16 +14,16 @@ class osproject
    int temp1;
    int n;
    Scanner in = new Scanner(System.in);
-   System.out.println("Enter no of girls");
+   System.out.println("Enter Number Of Students");
    n=in.nextInt();
    for(i=0;i<n;i++)
    {
    	Scanner sc=new Scanner(System.in);
-    System.out.println("Enter girl " + (i+1) + " name:");
+    System.out.println("Enter Student" + (i+1) + " Name:");
     p[i]=sc.nextLine();
-    System.out.println("Enter process time:");
+    System.out.println("Enter Process Time:");
     pt[i]=in.nextInt();
-    System.out.println("Enter no of gifts:");
+    System.out.println("Enter Number Of Gifts:");
     pr[i]=in.nextInt();
    }
    for(i=0;i<n-1;i++)
@@ -38,7 +38,6 @@ class osproject
       temp1=pt[i];
       pt[i]=pt[j];
       pt[j]=temp1;
-      
       temp = p[i];
       p[i] = p[j];
       p[j] = temp;
