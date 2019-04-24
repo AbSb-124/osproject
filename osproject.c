@@ -26,20 +26,3 @@ class osproject
     System.out.println("Enter Number Of Gifts:");
     pr[i]=in.nextInt();
    }
-   for(i=0;i<n-1;i++)
-   {
-    for(j=i+1;j<n;j++)
-    {
-      if(pr[i]<pr[j])
-    {
-      temp1=pr[i];
-      pr[i]=pr[j];
-      pr[j]=temp1;
-      temp1=pt[i];
-      pt[i]=pt[j];
-      pt[j]=temp1;
-      temp = p[i];
-      p[i] = p[j];
-      p[j] = temp;
- }
- }
